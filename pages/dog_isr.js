@@ -19,7 +19,7 @@ export async function getStaticProps() {
     props: {
       imageUrl: data.message,
     },
-    revalidate: 60, // Re-generate every 60 seconds
+    revalidate: 10, // Re-generate every 10 seconds
   };
 }
 
